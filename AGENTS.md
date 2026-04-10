@@ -2,7 +2,7 @@
 
 ## Language Preference
 
-All responses must be in English.
+All responses must be in Chinese.
 
 ## Response Style
 
