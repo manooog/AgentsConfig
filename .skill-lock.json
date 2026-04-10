@@ -1,0 +1,164 @@
+{
+  "version": 3,
+  "skills": {
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "skillFolderHash": "928950704df8a8b885c03de5da626331e6f29cf8",
+      "pluginName": "example-skills",
+      "installedAt": "2026-03-16T02:12:24.375Z",
+      "updatedAt": "2026-03-16T02:12:24.375Z"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "3013fdeb8a11b10b1eb795ec3ae8bfca38f7c26d",
+      "installedAt": "2026-03-16T02:12:48.100Z",
+      "updatedAt": "2026-03-16T02:12:48.100Z"
+    },
+    "typescript-expert": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/sickn33/antigravity-awesome-skills.git",
+      "skillPath": "skills/typescript-expert/SKILL.md",
+      "skillFolderHash": "9f0a1ee8bea92a4010b2181b45299b9a3b9404c1",
+      "installedAt": "2026-03-16T02:29:30.238Z",
+      "updatedAt": "2026-03-16T02:29:30.238Z"
+    },
+    "solidjs": {
+      "source": "suryavirkapur/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/suryavirkapur/skills.git",
+      "skillPath": "skills/solidjs/SKILL.md",
+      "skillFolderHash": "ca7e67c55a7074682e0a4be811d109dd3d946cf7",
+      "installedAt": "2026-03-16T02:33:27.641Z",
+      "updatedAt": "2026-03-16T02:33:27.641Z"
+    },
+    "solidjs-solidstart-expert": {
+      "source": "modra40/claude-codex-skills-directory",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/modra40/claude-codex-skills-directory.git",
+      "skillPath": "solidjs-solidstart-mastery-skill/SKILL.md",
+      "skillFolderHash": "119f3c4fbc5ddac4c224c63b2c32b675a298c773",
+      "installedAt": "2026-03-16T02:33:37.926Z",
+      "updatedAt": "2026-03-16T02:33:37.926Z"
+    },
+    "solidjs-patterns": {
+      "source": "different-ai/openwork",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/different-ai/openwork.git",
+      "skillPath": ".opencode/skills/solidjs-patterns/SKILL.md",
+      "skillFolderHash": "",
+      "installedAt": "2026-03-16T02:33:40.351Z",
+      "updatedAt": "2026-03-16T02:33:40.351Z"
+    },
+    "solidjs-expert": {
+      "source": "oimiragieo/agent-studio",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/oimiragieo/agent-studio.git",
+      "skillPath": ".claude/skills/solidjs-expert/SKILL.md",
+      "skillFolderHash": "3177062b01e94c96df555129dfaaf3feeb398d3e",
+      "installedAt": "2026-03-16T02:33:43.517Z",
+      "updatedAt": "2026-03-16T02:33:43.517Z"
+    },
+    "chrome-extension-development": {
+      "source": "mindrally/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mindrally/skills.git",
+      "skillPath": "chrome-extension-development/SKILL.md",
+      "skillFolderHash": "4997c711bd5249259186b6caa63e7e818ef542df",
+      "installedAt": "2026-03-16T02:39:05.403Z",
+      "updatedAt": "2026-03-16T02:39:05.403Z"
+    },
+    "chrome-extension-wxt": {
+      "source": "tenequm/claude-plugins",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tenequm/claude-plugins.git",
+      "skillPath": "skills/chrome-extension-wxt/SKILL.md",
+      "skillFolderHash": "276eecca527da198f8b262efb31a07a99bcddf54",
+      "installedAt": "2026-03-16T02:39:19.914Z",
+      "updatedAt": "2026-03-16T02:39:19.914Z"
+    },
+    "writing-skills": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/writing-skills/SKILL.md",
+      "skillFolderHash": "80e8c7d3be99d55d5d76c9516cc45a1e7f48f281",
+      "installedAt": "2026-03-26T07:32:24.072Z",
+      "updatedAt": "2026-03-26T07:32:24.072Z"
+    },
+    "systematic-debugging": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/systematic-debugging/SKILL.md",
+      "skillFolderHash": "828c239ac986cc1fc7edd10292f66e4a3640e9c0",
+      "installedAt": "2026-03-26T07:52:07.508Z",
+      "updatedAt": "2026-03-26T07:52:07.508Z"
+    },
+    "test-driven-development": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/test-driven-development/SKILL.md",
+      "skillFolderHash": "98904a7d8e0e04b9bd46220b9b17298f45fe0b72",
+      "installedAt": "2026-03-26T07:52:12.617Z",
+      "updatedAt": "2026-03-26T07:52:12.617Z"
+    },
+    "verification-before-completion": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/verification-before-completion/SKILL.md",
+      "skillFolderHash": "ceb2f1f67f4cadb29b32a06e54d3d0be832071f5",
+      "installedAt": "2026-03-26T07:52:17.826Z",
+      "updatedAt": "2026-03-26T07:52:17.826Z"
+    },
+    "writing-plans": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/writing-plans/SKILL.md",
+      "skillFolderHash": "704e240d4b281baf8a339e1418baa249860197f7",
+      "installedAt": "2026-03-26T07:52:22.865Z",
+      "updatedAt": "2026-03-26T07:52:22.865Z"
+    },
+    "brainstorming": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/brainstorming/SKILL.md",
+      "skillFolderHash": "f260c775073816860fef8a37c032ac77e2ff5821",
+      "installedAt": "2026-03-26T07:52:28.178Z",
+      "updatedAt": "2026-03-26T07:52:28.178Z"
+    },
+    "create-github-pull-request-from-specification": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/github/awesome-copilot.git",
+      "skillPath": "skills/create-github-pull-request-from-specification/SKILL.md",
+      "skillFolderHash": "530438a8ddfd059e4c74d6b79e6156a24344ca28",
+      "installedAt": "2026-04-07T12:59:51.390Z",
+      "updatedAt": "2026-04-07T12:59:51.390Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "cline",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-cli",
+    "opencode",
+    "warp"
+  ]
+}
