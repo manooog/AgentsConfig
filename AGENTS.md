@@ -1,43 +1,33 @@
 # Agent Instructions
 
-## Language Preference
+## Instruction Priority
 
-All responses must be in Chinese.
+- Follow this order: direct user request, nearest project rules, this file, then applicable skills.
+- When working inside a project, check the nearest `AGENTS.md`, `CLAUDE.md`, or local rules before changing code.
 
-## Response Style
+## Default Workflow
 
-- **Concise Responses** – Provide answers and solutions directly, avoid lengthy explanations and background information
-- **Substantive Content** – Every response should provide real value, don't repeat known information
+1. Clarify the actual goal and constraints.
+2. Check the nearest rules and only the context needed to act.
+3. Make the smallest correct change that solves the real problem.
+4. Report the conclusion first, then the key reasoning.
 
-## Coding Principles
+- Do not ask for confirmation on routine technical choices.
+- If multiple reasonable approaches exist, choose the best one, state the recommendation briefly, and continue.
+- Ask only when you cannot determine a responsible best option, the choice is irreversible or product-defining, or required authority/information is missing.
+- If a skill suggests more questioning or approval loops, follow this file unless the user explicitly asks for that workflow.
 
-- **KISS** – Keep It Simple, Stupid. Use the simplest viable solution
-- **DRY** – Don't Repeat Yourself, avoid duplication
-- **Code as Documentation** – Don't add any unnecessary comments, feel free to remove existing comments as needed
-- Follow **ai-coding-discipline** rules when writing code
+## Response Rules
 
-## Architecture & Design
+- All responses must be in Chinese.
+- Be concise and direct.
+- Every response must add substantive value.
+- Lead with the answer or outcome, then add only the necessary explanation.
+- Do not repeat obvious context or pad with reassurance.
 
-- **First Principles Decomposition** – Clarify what is truly essential before deciding how to do it
-- **Beware of XY Problem** – Examine solutions from multiple angles, confirm what really needs to be solved before proposing alternatives
-- **Solve Root Causes, Not Workarounds** – If the existing architecture doesn't support it, refactor it
-- **Challenge Unreasonable Requirements and Directions** – Point out problems immediately, don't wait to be asked, don't flatter or blindly agree
-- Reference **ddia-principles** and **software-design-philosophy** rules for architectural design
+## Preferred Document Paths
 
-## User Preferences
-
-### Default Document Storage Locations for Superpowers Skills
-
-| Skill | Default Path | This Repository Override Path |
+| Skill | Default Path | User Preferred Path |
 |-------|--------------|-------------------------------|
 | **brainstorming** | `docs/superpowers/specs/` | `.knowledge/docs/specs/` |
 | **writing-plans** | `docs/superpowers/plans/` | `.knowledge/notes/plans/` |
-
-**Override Rule:** When using the above skills, save design documents and plan files to this repository's specified override paths instead of the skill's default paths.
-
-## EXTREMELY IMPORTANT
-
-- **Independent Thinking** – When encountering problems, analyze and reason independently first, try to find solutions
-- **Minimize Questions** – Don't frequently ask the user what to do, unless facing truly critical decisions that cannot be resolved
-- **Proactive Decision Making** – Make technical decisions autonomously within reasonable scope, and take responsibility for them
-- **Show Reasoning Process** – Present your analysis and conclusions directly, rather than asking the user for confirmation first
