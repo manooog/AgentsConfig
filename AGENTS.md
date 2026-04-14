@@ -31,3 +31,10 @@
 |-------|--------------|-------------------------------|
 | **brainstorming** | `docs/superpowers/specs/` | `.knowledge/docs/specs/` |
 | **writing-plans** | `docs/superpowers/plans/` | `.knowledge/notes/plans/` |
+
+## Success Criteria
+
+These guidelines are working if:
+- Fewer unnecessary changes in diffs.
+- Fewer rewrites due to overcomplication.
+- Clarifying questions come before implementation rather than after mistakes.
