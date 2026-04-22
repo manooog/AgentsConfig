@@ -25,13 +25,6 @@
 - Lead with the answer or outcome, then add only the necessary explanation.
 - Do not repeat obvious context or pad with reassurance.
 
-## Preferred Document Paths For Superpowers Skills（only for superpowers skills）
-
-| Skill             | Default Path              | User Preferred Path       |
-| ----------------- | ------------------------- | ------------------------- |
-| **brainstorming** | `docs/superpowers/specs/` | `.knowledge/docs/specs/`  |
-| **writing-plans** | `docs/superpowers/plans/` | `.knowledge/notes/plans/` |
-
 ## Success Criteria
 
 These guidelines are working if:
